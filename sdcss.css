@@ -11,12 +11,12 @@ body > .row > .col {
     margin: 3rem !important;
 }
 
-.col {
+div.col {
     margin: 1.5rem;
     flex: 1;
 }
 
-.row {
+div.row {
     display: flex;
 }
 
@@ -26,61 +26,61 @@ body > .row > .col {
 }
 
 /* center columns */
-.row.cc {
+div.row.cc {
     align-items: center;
     justify-content: center;
 }
 
 /* full height */
-.fh {
+div.row.fh {
     height: 100vh;
 }
 
-.col.w1 {
+div.col.w1 {
     max-width: calc(1 / 12 * 100%);
 }
 
-.col.w2 {
+div.col.w2 {
     max-width: calc(2 / 12 * 100%);
 }
 
-.col.w3 {
+div.col.w3 {
     max-width: calc(3 / 12 * 100%);
 }
 
-.col.w4 {
+div.col.w4 {
     max-width: calc(4 / 12 * 100%);
 }
 
-.col.w5 {
+div.col.w5 {
     max-width: calc(5 / 12 * 100%);
 }
 
-.col.w6 {
+div.col.w6 {
     max-width: calc(6 / 12 * 100%);
 }
 
-.col.w7 {
+div.col.w7 {
     max-width: calc(7 / 12 * 100%);
 }
 
-.col.w8 {
+div.col.w8 {
     max-width: calc(8 / 12 * 100%);
 }
 
-.col.w9 {
+div.col.w9 {
     max-width: calc(9 / 12 * 100%);
 }
 
-.col.w10 {
+div.col.w10 {
     max-width: calc(10 / 12 * 100%);
 }
 
-.col.w11 {
+div.col.w11 {
     max-width: calc(11 / 12 * 100%);
 }
 
-.col.w12 {
+div.col.w12 {
     max-width: calc(12 / 12 * 100%);
 }
 
@@ -128,10 +128,25 @@ div.spcr {
     padding: 0;
 }
 
+div.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
 @media (max-width: 700px) {
     .col {
         max-width: none !important;
     }
+
     .row {
         display: block;
     }
