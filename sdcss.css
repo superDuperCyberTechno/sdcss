@@ -144,7 +144,7 @@ div.footer {
     text-align: center;
 }
 
-a {
+a, a * {
     cursor: pointer;
     color: inherit;
 }
