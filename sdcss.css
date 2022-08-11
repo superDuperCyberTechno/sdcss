@@ -1,6 +1,7 @@
 html * {
     font-family: sans;
     font-size: 16px;
+    cursor: default;
 }
 
 body {
@@ -107,11 +108,17 @@ form * {
     margin: 7px 0;
 }
 
-input, button {
+input[type="email"], input[type="text"] {
+    width: 100%;
+}
+
+input, button, select {
     border: 1px solid black;
     outline: none;
-    padding: 3px;
-    color: inherit;
+    padding: 4px;
+    background-color: #f9f9f9;
+    color: #1a1a1a;
+    border-radius: 0;
 }
 
 button {
