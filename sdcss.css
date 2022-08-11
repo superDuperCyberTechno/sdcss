@@ -110,6 +110,7 @@ form * {
 
 input[type="email"], input[type="text"] {
     width: 100%;
+    cursor: text;
 }
 
 input, button, select {
@@ -144,6 +145,7 @@ div.footer {
 }
 
 a {
+    cursor: pointer;
     color: inherit;
 }
 
