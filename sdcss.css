@@ -145,11 +145,11 @@ p {
 }
 
 @media (max-width: 700px) {
-    .col {
+    div.col {
         max-width: none !important;
     }
 
-    .row {
+    div.row {
         display: block;
     }
 }
