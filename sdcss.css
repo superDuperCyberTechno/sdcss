@@ -84,16 +84,6 @@ body > .row > .col {
     max-width: calc(12 / 12 * 100%);
 }
 
-/* background dark */
-.bg-d {
-    background-color: #1e1a1d;
-    background-color: #273E47;
-}
-
-.bg-d * {
-    color: #D8C99B;
-}
-
 h1, h2, h3 {
     letter-spacing: -1px;
     margin: 0;
