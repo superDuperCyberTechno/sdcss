@@ -82,6 +82,7 @@ div.col.w12 {
 
 h1, h2, h3 {
     letter-spacing: -1px;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -125,7 +126,8 @@ div.spcr {
 }
 
 div.footer {
-    position: absolute;
+    position: fixed;
+    background-color:inherit;
     bottom: 0;
     left: 0;
     right: 0;
@@ -136,6 +138,10 @@ div.footer {
 
 a {
     color: inherit;
+}
+
+p {
+    margin: 0;
 }
 
 @media (max-width: 700px) {
