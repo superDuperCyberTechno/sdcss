@@ -11,18 +11,31 @@ body {
 div.col {
     margin: .75rem;
     flex: 1;
+    text-align: justify;
+}
+
+div.col * {
+    margin: .5rem 0;
+}
+
+div.col *:first-child {
+    margin: 0 0 .5rem 0;
+}
+
+div.col *:last-child {
+    margin: .5rem 0 0 0;
 }
 
 div.col:first-child {
-  margin: .75rem .75rem .75rem 1.5rem;
+    margin: .75rem .75rem .75rem 1.5rem;
 }
 
 div.col:last-child {
-  margin: .75rem 1.5rem .75rem .75rem;
+    margin: .75rem 1.5rem .75rem .75rem;
 }
 
 div.col:only-child {
-  margin: .75rem 1.5rem .75rem 1.5rem;
+    margin: .75rem 1.5rem .75rem 1.5rem;
 }
 
 div.row {
@@ -93,7 +106,9 @@ div.col.w12 {
     max-width: calc(12 / 12 * 100%);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     letter-spacing: -1px;
     font-weight: 500;
     margin: 0;
@@ -120,12 +135,15 @@ form * {
     margin: 7px 0;
 }
 
-input[type="email"], input[type="text"] {
+input[type="email"],
+input[type="text"] {
     width: 100%;
     cursor: text;
 }
 
-input, button, select {
+input,
+button,
+select {
     border: 1px solid black;
     outline: none;
     padding: 4px;
@@ -147,7 +165,7 @@ div.spcr {
 
 div.footer {
     position: fixed;
-    background-color:inherit;
+    background-color: inherit;
     bottom: 0;
     left: 0;
     right: 0;
@@ -156,13 +174,26 @@ div.footer {
     text-align: center;
 }
 
-a, a * {
+a,
+a * {
     cursor: pointer;
     color: inherit;
 }
 
 p {
     margin: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse
 }
 
 @media (max-width: 1000px) {
