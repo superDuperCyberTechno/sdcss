@@ -9,8 +9,20 @@ body {
 }
 
 div.col {
-    margin: 1.5rem 1.5rem 0 1.5rem !important;
+    margin: .75rem;
     flex: 1;
+}
+
+div.col:first-child {
+  margin: .75rem .75rem .75rem 1.5rem;
+}
+
+div.col:last-child {
+  margin: .75rem 1.5rem .75rem .75rem;
+}
+
+div.col:only-child {
+  margin: .75rem 1.5rem .75rem 1.5rem;
 }
 
 div.row {
@@ -153,7 +165,7 @@ p {
     margin: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     div.col {
         max-width: none !important;
     }
