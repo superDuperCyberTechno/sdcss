@@ -14,15 +14,15 @@ div.col {
     text-align: justify;
 }
 
-div.col * {
+div.col>* {
     margin: .5rem 0;
 }
 
-div.col *:first-child {
+div.col>*:first-child {
     margin: 0 0 .5rem 0;
 }
 
-div.col *:last-child {
+div.col>*:last-child {
     margin: .5rem 0 0 0;
 }
 
@@ -106,24 +106,27 @@ div.col.w12 {
     max-width: calc(12 / 12 * 100%);
 }
 
+.h1,
+.h2,
+.h3,
 h1,
 h2,
 h3 {
     letter-spacing: -1px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
 }
 
-h1 {
-    font-size: 2.5rem;
+.h1, h1 {
+    font-size: 3rem;
 }
 
-h2 {
-    font-size: 2rem;
+.h2, h2 {
+    font-size: 1.85rem;
 }
 
-h3 {
-    font-size: 1.5rem;
+.h3, h3 {
+    font-size: 1.2rem;
 }
 
 .st {
@@ -184,16 +187,21 @@ p {
     margin: 0;
 }
 
-tr:nth-child(even) {
-    background-color: #f1f1f1;
+table:not(table table)>tbody>tr:nth-child(even) {
+    background-color: #dbdbdb;
 }
 
-td {
-    text-align: center;
+table:not(table table)>tbody>tr:first-child{
+    font-weight: 700;
 }
 
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -201,11 +209,9 @@ table {
         max-width: none !important;
         margin: .75rem;
     }
-
-    div.col:first-child,
-    div.col:last-child,
-    div.col:only-child {
-        margin: .75rem;
+    
+    div.col:first-child, div.col:last-child, div.col:only-child {
+      margin: .75rem;
     }
 
     div.row {
