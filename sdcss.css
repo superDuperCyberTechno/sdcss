@@ -86,24 +86,9 @@ col-9,
 col-10,
 col-11,
 col-12 {
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem;
   flex: 1;
   text-align: justify;
-}
-
-col-1>*:last-child,
-col-2>*:last-child,
-col-3>*:last-child,
-col-4>*:last-child,
-col-5>*:last-child,
-col-6>*:last-child,
-col-7>*:last-child,
-col-8>*:last-child,
-col-9>*:last-child,
-col-10>*:last-child,
-col-11>*:last-child,
-col-12>*:last-child {
-  margin: 0 0 1rem 0;
 }
 
 col-1 {
