@@ -38,17 +38,27 @@ img {
 
 body {
   margin: 0;
+  padding: .5rem;
 }
 
 col-row {
   display: flex;
 }
 
+col-row>* {
+  margin: 0rem .5rem;
+}
+
+col-row:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
 h1,
 h2,
-h3 {
+h3,
+summary {
   letter-spacing: -1px;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0;
 }
 
