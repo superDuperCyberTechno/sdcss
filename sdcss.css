@@ -185,8 +185,24 @@ p {
   margin: 0;
 }
 
-@media (max-width: 700px) {
+table:not(table table)>tbody>tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
 
+table:not(table table)>tbody>tr:first-child{
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+@media (max-width: 700px) {
   col-1,
   col-2,
   col-3,
