@@ -212,7 +212,7 @@ table:not(table table) > tbody > tr:nth-child(even) {
   background-color: #dbdbdb;
 }
 
-table:not(table table) > tbody > tr:first-child {
+table:not(.noheader) > tbody > tr:first-child > td {
   font-weight: 700;
 }
 
