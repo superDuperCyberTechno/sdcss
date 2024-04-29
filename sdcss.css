@@ -44,7 +44,7 @@ col-9 > *:not(col-row),
 col-10 > *:not(col-row),
 col-11 > *:not(col-row),
 col-12 > *:not(col-row) {
-  padding: 1.5vh 1vw;
+  padding: 1.5vh 1vw 0 1vw;
   text-align: justify;
 }
 
@@ -63,10 +63,6 @@ col-11,
 col-12 {
   display: block;
   flex: 1;
-}
-
-summary {
-  text-align: left;
 }
 
 col-1 {
@@ -202,6 +198,16 @@ a,
 a * {
   cursor: pointer;
   color: inherit;
+}
+
+b,
+b * {
+  font-weight: 600;
+}
+
+i,
+i * {
+  font-style: italic;
 }
 
 p {
