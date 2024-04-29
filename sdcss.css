@@ -215,7 +215,7 @@ p {
 }
 
 table:not(table table) > tbody > tr:nth-child(even) {
-  background-color: #dbdbdb;
+  background-color: #ececec;
 }
 
 table:not(.noheader) > tbody > tr:first-child > td {
