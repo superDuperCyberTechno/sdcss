@@ -1,5 +1,7 @@
+@import url('https://rsms.me/inter/inter.css');
+
 * {
-  font-family: sans;
+  font-family: Inter, sans-serif;
   font-weight: 300;
 }
 

@@ -12,7 +12,7 @@ A simple, classless, flexed CSS boilerplate. There's only 3 things to be aware o
 * Columns are custom tags. They come in 13 flavors. Sizes 1 to 12 and `x` which has an automatic width. IE: `<col-1>`, `<col-12>`, `<col-x>`.
 * Content in columns are supposed to be put in a container. `<div>` and `<summary>` are currently supported.
 
-Use the CSS from here:
+Use the CSS by adding this to your header:
 ```
-https://superdupercybertechno.github.io/sdcss/sdcss.css
+<link href="https://superdupercybertechno.github.io/sdcss/sdcss.css" rel="stylesheet" type="text/css" media="all" />
 ```
