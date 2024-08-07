@@ -46,7 +46,7 @@ col-9 > *:not(col-row),
 col-10 > *:not(col-row),
 col-11 > *:not(col-row),
 col-12 > *:not(col-row) {
-  padding: 1.5vh 1vw 0 1vw;
+  padding: 1.5svh 1svw 0 1svw;
   text-align: justify;
 }
 
@@ -123,7 +123,7 @@ col-row.cc {
 
 /* full height */
 col-row.fh {
-  height: 100vh;
+  height: 100svh;
 }
 
 img {
