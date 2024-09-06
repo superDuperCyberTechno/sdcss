@@ -280,4 +280,7 @@ ul {
     background-color: #010101;
     color: #f9f9f9;
   }
+  table:not(table table) > tbody > tr:nth-child(even) {
+    background-color: #222222;
+  }
 }
