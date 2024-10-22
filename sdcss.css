@@ -266,6 +266,22 @@ ul {
     max-width: 100%;
   }
 
+  col-x > *:not(col-row):only-of-type,
+  col-1 > *:not(col-row):only-of-type,
+  col-2 > *:not(col-row):only-of-type,
+  col-3 > *:not(col-row):only-of-type,
+  col-4 > *:not(col-row):only-of-type,
+  col-5 > *:not(col-row):only-of-type,
+  col-6 > *:not(col-row):only-of-type,
+  col-7 > *:not(col-row):only-of-type,
+  col-8 > *:not(col-row):only-of-type,
+  col-9 > *:not(col-row):only-of-type,
+  col-10 > *:not(col-row):only-of-type,
+  col-11 > *:not(col-row):only-of-type,
+  col-12 > *:not(col-row):only-of-type {
+    padding: 1.5svh 1svw 0 1svw;
+  }
+
   col-row {
     display: block;
   }
