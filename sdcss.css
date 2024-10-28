@@ -20,8 +20,8 @@ tr.noheader td {
 html {
   font-size: 16px;
   cursor: default;
-  background-color: #f9f9f9;
-  color: #010101;
+  background-color: #eee;
+  color: #111;
 }
 
 body {
@@ -291,10 +291,10 @@ ul {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #010101;
-    color: #f9f9f9;
+    background-color: #111;
+    color: #eee;
   }
   table:not(table table) > tbody > tr:nth-child(even) {
-    background-color: #222222;
+    background-color: #222;
   }
 }
