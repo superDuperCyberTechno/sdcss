@@ -136,7 +136,7 @@ h3,
 summary {
   text-transform: uppercase;
   letter-spacing: -1px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
@@ -152,11 +152,11 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 form * {
