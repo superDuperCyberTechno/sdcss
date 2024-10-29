@@ -116,15 +116,22 @@ col-12 {
 }
 
 /* center columns */
-col-row.cc {
+/*col-row.cc {
+  align-items: center;
+  justify-content: center;
+}*/
+/* full height */
+.fh {
+  height: 100svh;
+}
+
+/*vertical centering*/
+.vc {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* full height */
-col-row.fh {
-  height: 100svh;
-}
 
 img {
   width: 100%;
