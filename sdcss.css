@@ -120,8 +120,9 @@ col-12 {
   align-items: center;
   justify-content: center;
 }*/
+
 /* full height */
-.fh {
+col-row > *.fh {
   height: 100svh;
 }
 
@@ -131,7 +132,6 @@ col-12 {
   align-items: center;
   justify-content: center;
 }
-
 
 img {
   width: 100%;
