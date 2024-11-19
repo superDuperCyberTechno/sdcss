@@ -166,6 +166,10 @@ h3 {
   font-size: 1.3rem;
 }
 
+form {
+  margin: 0;
+}
+
 form * {
   display: block;
   margin: 7px 0;
