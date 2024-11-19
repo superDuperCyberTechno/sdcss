@@ -221,7 +221,7 @@ p {
   margin: 0;
 }
 
-table:not(table table) > tbody > tr:nth-child(even) {
+table:not(table table) > tbody > tr:nth-child(odd) {
   background-color: #ddd;
 }
 
@@ -302,7 +302,7 @@ ul {
     color: #eee;
   }
 
-  table:not(table table) > tbody > tr:nth-child(even) {
+  table:not(table table) > tbody > tr:nth-child(odd) {
     background-color: #222;
   }
 
