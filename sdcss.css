@@ -280,6 +280,10 @@ ul {
   }
 }
 
+.mobile-hide {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
 }
