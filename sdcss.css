@@ -278,10 +278,10 @@ ul {
   col-row {
     display: block;
   }
-}
 
-.mobile-hide {
-  display: none;
+  .mobile-hide {
+    display: none;
+  }
 }
 
 * {
