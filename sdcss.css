@@ -279,6 +279,10 @@ ul {
     display: block;
   }
 
+  .vc {
+    display: inherit;
+  }
+
   .mobile-hide {
     display: none;
   }
