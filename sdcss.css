@@ -122,6 +122,10 @@ col-12 {
   align-items: center;
 }
 
+.fw {
+  width: 100%;
+}
+
 img {
   width: 100%;
 }
