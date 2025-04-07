@@ -123,7 +123,7 @@ col-12 {
 
 /* full height */
 col-row > *.fh {
-  height: 100svh;
+  min-height: 100svh;
 }
 
 /*vertical centering*/
