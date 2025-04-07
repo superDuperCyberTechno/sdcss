@@ -130,6 +130,11 @@ col-row > *.fh {
 .vc {
   display: flex;
   align-items: center;
+}
+
+/*horizontal centering*/
+.hc {
+  display: flex;
   justify-content: center;
 }
 
