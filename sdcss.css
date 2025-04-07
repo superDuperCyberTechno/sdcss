@@ -64,58 +64,55 @@ col-10,
 col-11,
 col-12 {
   display: block;
-}
-
-col-x {
-  flex: auto;
-}
-
-col-1 {
   flex: 1;
 }
 
+col-1 {
+  max-width: calc(1 / 12 * 100%);
+}
+
 col-2 {
-  flex: 2;
+  max-width: calc(2 / 12 * 100%);
 }
 
 col-3 {
-  flex: 3;
+  max-width: calc(3 / 12 * 100%);
 }
 
 col-4 {
-  flex: 4;
+  max-width: calc(4 / 12 * 100%);
 }
 
 col-5 {
-  flex: 5;
+  max-width: calc(5 / 12 * 100%);
 }
 
 col-6 {
-  flex: 6;
+  max-width: calc(6 / 12 * 100%);
 }
 
 col-7 {
-  flex: 7;
+  max-width: calc(7 / 12 * 100%);
 }
 
 col-8 {
-  flex: 8;
+  max-width: calc(8 / 12 * 100%);
 }
 
 col-9 {
-  flex: 9;
+  max-width: calc(9 / 12 * 100%);
 }
 
 col-10 {
-  flex: 10;
+  max-width: calc(10 / 12 * 100%);
 }
 
 col-11 {
-  flex: 11;
+  max-width: calc(11 / 12 * 100%);
 }
 
 col-12 {
-  flex: 12;
+  max-width: calc(12 / 12 * 100%);
 }
 
 /* full height / hero section*/
