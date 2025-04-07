@@ -172,9 +172,9 @@ form * {
 }
 
 input[type="email"],
-input[type="text"] {
+input[type="text"],
+input[type="range"] {
   width: 100%;
-  cursor: text;
 }
 
 input,
