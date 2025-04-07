@@ -163,7 +163,7 @@ form {
   margin: 0;
 }
 
-form * {
+form > * {
   display: block;
   margin: 7px 0;
 }
