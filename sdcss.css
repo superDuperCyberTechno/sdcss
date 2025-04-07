@@ -253,9 +253,9 @@ ul {
 
 @media (max-width: 850px) {
   body {
-    padding: 1rem;
+    padding: 1.5svw;
   }
-  
+
   col-x,
   col-1,
   col-2,
