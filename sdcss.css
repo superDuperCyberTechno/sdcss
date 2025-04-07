@@ -115,27 +115,11 @@ col-12 {
   max-width: calc(12 / 12 * 100%);
 }
 
-/* center columns */
-/*col-row.cc {
-  align-items: center;
-  justify-content: center;
-}*/
-
-/* full height */
+/* full height / hero section*/
 .fh {
   min-height: 100svh;
-}
-
-/*vertical centering*/
-.vc {
   display: flex;
   align-items: center;
-}
-
-/*horizontal centering*/
-.hc {
-  display: flex;
-  justify-content: center;
 }
 
 img {
