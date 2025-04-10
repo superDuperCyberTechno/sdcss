@@ -163,13 +163,9 @@ form {
   margin: 0;
 }
 
-form label, form input {
+form > * {
   display: block;
   margin: .5rem 0;
-}
-
-form input {
-  margin-bottom: .5rem;
 }
 
 input[type="email"],
