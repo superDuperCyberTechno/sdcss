@@ -222,7 +222,7 @@ table:not(table table) > tbody > tr:nth-child(odd) {
   background-color: #ddd;
 }
 
-table:not(.noheader) > tbody > tr:first-child > td {
+table > thead th {
   font-weight: 700;
 }
 
@@ -231,8 +231,7 @@ table {
   width: 100%;
 }
 
-table td {
-  text-align: center;
+table td, table th {
   border-right: 1px solid #111;
   padding: 0;
 }
