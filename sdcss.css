@@ -279,7 +279,8 @@ ul {
     display: inherit;
   }
 
-  .mobile-hide {
+  .mobile-hide,
+  .mobile-hide * {
     display: none;
   }
 }
