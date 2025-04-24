@@ -63,6 +63,7 @@ col-9,
 col-10,
 col-11,
 col-12 {
+  overflow: hidden;
   display: block;
   flex: 1;
 }
