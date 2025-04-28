@@ -13,10 +13,6 @@ strong {
   font-weight: 500;
 }
 
-tr.noheader td {
-  font-weight: normal;
-}
-
 html {
   font-size: 16px;
   cursor: default;
@@ -33,20 +29,20 @@ col-row {
   display: flex;
 }
 
-col-x > *:not(col-row),
-col-1 > *:not(col-row),
-col-2 > *:not(col-row),
-col-3 > *:not(col-row),
-col-4 > *:not(col-row),
-col-5 > *:not(col-row),
-col-6 > *:not(col-row),
-col-7 > *:not(col-row),
-col-8 > *:not(col-row),
-col-9 > *:not(col-row),
-col-10 > *:not(col-row),
-col-11 > *:not(col-row),
-col-12 > *:not(col-row) {
-  padding: 2svh 2svw;
+col-x>*:not(col-row),
+col-1>*:not(col-row),
+col-2>*:not(col-row),
+col-3>*:not(col-row),
+col-4>*:not(col-row),
+col-5>*:not(col-row),
+col-6>*:not(col-row),
+col-7>*:not(col-row),
+col-8>*:not(col-row),
+col-9>*:not(col-row),
+col-10>*:not(col-row),
+col-11>*:not(col-row),
+col-12>*:not(col-row) {
+  padding: .5rem;
   text-align: justify;
 }
 
@@ -117,14 +113,61 @@ col-12 {
 }
 
 /* full height / hero section*/
-.fh {
+col-row.fh {
   min-height: 100svh;
   display: flex;
   align-items: center;
 }
 
+.fh {
+  height: 100%;
+}
+
 .fw {
   width: 100%;
+}
+
+.vc {
+  display: flex;
+  align-items: center;
+}
+
+.ct {
+  text-align: center;
+}
+
+.jt {
+  text-align: justify;
+}
+
+.lt {
+  text-align: left;
+}
+
+/* col-row *>div.np { */
+/* padding: 0; */
+/* } */
+
+/* col-row *>div.nvp { */
+/* padding-left: 0; */
+/* padding-right: 0; */
+/* } */
+
+/* col-row *>div.nhp { */
+/* padding-top: 0; */
+/* padding-bottom: 0; */
+/* } */
+
+body:has(header)+col-row {
+  /* margin-top: 68px; */
+}
+
+body>header+col-row.fh {
+  /* min-height: calc(100vh - 68px); */
+}
+
+:not(header)>col-row>*>div {
+  padding: 1rem;
 }
 
 img {
@@ -135,6 +178,7 @@ h1,
 h2,
 h3,
 summary {
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: 600;
@@ -164,12 +208,13 @@ form {
   margin: 0;
 }
 
-form > * {
+form>* {
   display: block;
   margin: .5rem 0;
 }
 
 input[type="email"],
+input[type="password"],
 input[type="text"],
 input[type="range"] {
   width: 100%;
@@ -199,6 +244,16 @@ footer {
   border-top: 1px solid #111;
 }
 
+header {
+  text-align: center;
+  padding: 1rem;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  background: #77bfa3;
+  overflow: none;
+}
+
 a,
 a * {
   cursor: pointer;
@@ -219,11 +274,11 @@ p {
   margin: 0;
 }
 
-table:not(table table) > tbody > tr:nth-child(odd) {
+table:not(table table)>tbody>tr:nth-child(odd) {
   background-color: #ddd;
 }
 
-table > thead th {
+table>thead th {
   font-weight: 700;
 }
 
@@ -232,7 +287,8 @@ table {
   width: 100%;
 }
 
-table td, table th {
+table td,
+table th {
   border-right: 1px solid #111;
   padding: 0;
 }
@@ -269,14 +325,33 @@ ul {
   col-10,
   col-11,
   col-12 {
+    /* margin-bottom: 1rem; */
     max-width: 100%;
+  }
+
+  :not(header)>col-row>col-x:not(:empty),
+  :not(header)>col-row>col-1:not(:empty),
+  :not(header)>col-row>col-2:not(:empty),
+  :not(header)>col-row>col-3:not(:empty),
+  :not(header)>col-row>col-4:not(:empty),
+  :not(header)>col-row>col-5:not(:empty),
+  :not(header)>col-row>col-6:not(:empty),
+  :not(header)>col-row>col-7:not(:empty),
+  :not(header)>col-row>col-8:not(:empty),
+  :not(header)>col-row>col-9:not(:empty),
+  :not(header)>col-row>col-10:not(:empty),
+  :not(header)>col-row>col-11:not(:empty),
+  :not(header)>col-row>col-12:not(:empty) {
+    margin-bottom: 1rem;
   }
 
   col-row {
     display: block;
+    overflow: hidden;
+    padding: 1rem;
   }
 
-  .fh {
+  col-row.fh {
     display: inherit;
   }
 
@@ -296,7 +371,7 @@ ul {
     color: #eee;
   }
 
-  table:not(table table) > tbody > tr:nth-child(odd) {
+  table:not(table table)>tbody>tr:nth-child(odd) {
     background-color: #222;
   }
 
