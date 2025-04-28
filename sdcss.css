@@ -264,6 +264,7 @@ table tbody tr:hover {
 
 table>thead th {
   font-weight: 700;
+  text-align: left;
 }
 
 table {
@@ -340,10 +341,6 @@ ul {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #111;
@@ -361,4 +358,8 @@ ul {
   footer {
     border-top: 1px solid #eee;
   }
+}
+
+* {
+  box-sizing: border-box;
 }
