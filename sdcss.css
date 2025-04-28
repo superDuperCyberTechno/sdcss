@@ -274,8 +274,12 @@ p {
   margin: 0;
 }
 
-table:not(table table)>tbody>tr:nth-child(odd) {
-  background-color: #ddd;
+table tr td {
+  border-top: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+  background: #ddd;
 }
 
 table>thead th {
@@ -371,8 +375,12 @@ ul {
     color: #eee;
   }
 
-  table:not(table table)>tbody>tr:nth-child(odd) {
-    background-color: #222;
+  table tr td {
+    border-top: 1px solid #222;
+  }
+  
+  table tbody tr:hover {
+    background: #222;
   }
 
   footer {
