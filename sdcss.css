@@ -28,24 +28,6 @@ col-row {
   padding: .5rem;
 }
 
-/**
-col-x>*:not(col-row),
-col-1>*:not(col-row),
-col-2>*:not(col-row),
-col-3>*:not(col-row),
-col-4>*:not(col-row),
-col-5>*:not(col-row),
-col-6>*:not(col-row),
-col-7>*:not(col-row),
-col-8>*:not(col-row),
-col-9>*:not(col-row),
-col-10>*:not(col-row),
-col-11>*:not(col-row),
-col-12>*:not(col-row) {
-  padding: .5rem;
-  text-align: justify;
-}*/
-
 col-x,
 col-1,
 col-2,
