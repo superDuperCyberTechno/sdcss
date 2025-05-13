@@ -41,57 +41,62 @@ col-9,
 col-10,
 col-11,
 col-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
   overflow: hidden;
   display: block;
+}
+
+col-x {
   flex: 1;
 }
 
 col-1 {
-  max-width: calc(1 / 12 * 100%);
+  flex-basis: calc(1 / 12 * 100%);
 }
 
 col-2 {
-  max-width: calc(2 / 12 * 100%);
+  flex-basis: calc(2 / 12 * 100%);
 }
 
 col-3 {
-  max-width: calc(3 / 12 * 100%);
+  flex-basis: calc(3 / 12 * 100%);
 }
 
 col-4 {
-  max-width: calc(4 / 12 * 100%);
+  flex-basis: calc(4 / 12 * 100%);
 }
 
 col-5 {
-  max-width: calc(5 / 12 * 100%);
+  flex-basis: calc(5 / 12 * 100%);
 }
 
 col-6 {
-  max-width: calc(6 / 12 * 100%);
+  flex-basis: calc(6 / 12 * 100%);
 }
 
 col-7 {
-  max-width: calc(7 / 12 * 100%);
+  flex-basis: calc(7 / 12 * 100%);
 }
 
 col-8 {
-  max-width: calc(8 / 12 * 100%);
+  flex-basis: calc(8 / 12 * 100%);
 }
 
 col-9 {
-  max-width: calc(9 / 12 * 100%);
+  flex-basis: calc(9 / 12 * 100%);
 }
 
 col-10 {
-  max-width: calc(10 / 12 * 100%);
+  flex-basis: calc(10 / 12 * 100%);
 }
 
 col-11 {
-  max-width: calc(11 / 12 * 100%);
+  flex-basis: calc(11 / 12 * 100%);
 }
 
 col-12 {
-  max-width: calc(12 / 12 * 100%);
+  flex-basis: calc(12 / 12 * 100%);
 }
 
 /* full height / hero section*/
@@ -205,7 +210,6 @@ footer {
 
 header {
   position: sticky;
-  background-color: #77bfa3;
   padding: 1rem;
   top: 0;
   width: 100%;
@@ -263,6 +267,7 @@ ul {
 }
 
 @media (max-width: 850px) {
+
   col-x,
   col-1,
   col-2,
@@ -277,7 +282,7 @@ ul {
   col-11,
   col-12 {
     /* margin-bottom: 1rem; */
-    max-width: 100%;
+    width: 100%;
   }
 
   :not(header)>col-row>col-x:not(:empty),
@@ -320,7 +325,7 @@ ul {
   table tr td {
     border-top: 1px solid #222;
   }
-  
+
   table tbody tr:hover {
     background: #222;
   }
