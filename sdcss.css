@@ -272,6 +272,25 @@ ul {
   padding: 0 0 0 1.5rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #111;
+    color: #eee;
+  }
+
+  table tr td {
+    border-top: 1px solid #222;
+  }
+
+  table tbody tr:hover {
+    background: #222;
+  }
+
+  footer {
+    border-top: 1px solid #eee;
+  }
+}
+
 @media (max-width: 850px) {
   table tbody tr:hover {
     background: inherit;
@@ -324,25 +343,6 @@ ul {
   .mobile-hide,
   .mobile-hide * {
     display: none;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #111;
-    color: #eee;
-  }
-
-  table tr td {
-    border-top: 1px solid #222;
-  }
-
-  table tbody tr:hover {
-    background: #222;
-  }
-
-  footer {
-    border-top: 1px solid #eee;
   }
 }
 
