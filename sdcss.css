@@ -273,6 +273,10 @@ ul {
 }
 
 @media (max-width: 850px) {
+  table tbody tr:hover {
+    background: inherit;
+  }
+
   col-x,
   col-1,
   col-2,
